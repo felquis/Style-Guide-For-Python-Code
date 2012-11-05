@@ -11,6 +11,8 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/code-highlight/shCoreDefault.css"/>
+    <link rel="stylesheet" href="../css/code-highlight/shThemeDefault.css"/>
     <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
@@ -54,6 +56,18 @@
         </div>
 
         <p>Os trabalhos estão começando por aqui, para contribuir com a tradução <a href="https://github.com/felquis/Style-Guide-For-Python-Code" title="Acesse nosso GitHub" target="_blank">acesse nosso GitHub</a>.</p>
+
+        <pre class="brush: py">
+# Aligned with opening delimiter
+foo = long_function_name(var_one, var_two,
+                         var_three, var_four)
+
+# More indentation included to distinguish this from the rest.
+def long_function_name(
+        var_one, var_two, var_three,
+        var_four):
+    print(var_one)
+        </pre>
     </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
